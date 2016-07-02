@@ -1,0 +1,7 @@
+name: GameManager
+version: 1.0.0
+author: Niels098
+main: hypixel.Main
+commands:
+   port:
+     description: Used to teleport to a player.
