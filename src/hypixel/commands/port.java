@@ -20,12 +20,12 @@ public class port implements CommandExecutor {
         }
         Player paramPlayer = (Player) sender;
         if(paramPlayer.hasPermission("mod")) {
-            if(args.length < 0) {
+            if(args.length == 0) {
                 paramPlayer.sendMessage("§cCorrect usage: /port <username>");
                 return true;
             }
             Player paramPlayer2 = Bukkit.getPlayer(args[0]);
-            if(args.length > 0) {
+            if(args.length == 1) {
                 try {
                     paramPlayer.teleport(paramPlayer2.getLocation());
                     paramPlayer.sendMessage("§aYou have been teleported to §2" + paramPlayer2.getName());
