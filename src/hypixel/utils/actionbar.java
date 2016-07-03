@@ -18,7 +18,6 @@ public class actionbar {
     private static Class<?> packetPlayOutChat;
     private static Class<?> iChatBaseComponent;
     private static Class<?> chatComponentText;
-
     private static String nmsVersion;
 
     public static void getNmsVersion() {
