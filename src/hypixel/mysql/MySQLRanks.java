@@ -15,7 +15,7 @@ public class MySQLRanks {
     {
         try
         {
-            MySQL.update("CREATE TABLE IF NOT EXISTS " + table + " (UUID VARCHAR(64));");
+            MySQL.update("CREATE TABLE IF NOT EXISTS " + table + " (UUID VARCHAR(64), RANK VARCHAR);");
         }
         catch (Exception localException)
         {
@@ -41,7 +41,7 @@ public class MySQLRanks {
     public static void create(Player offlinePlayer) {
         try {
             if (!exists(offlinePlayer)) {
-                MySQL.update("CREATE TABLE IF NOT EXISTS " + table + " (UUID VARCHAR(64), AMOUNT INT);");
+                MySQL.update("CREATE TABLE IF NOT EXISTS " + table + " (UUID VARCHAR(64), RANK VARCHAR);");
                 MySQL.update("INSERT INTO " + table + "(UUID, RANK) VALUES ('" + offlinePlayer.getUniqueId() + "', '" + ranks.getName(ranks.Rank.DEFAULT) + "');");
             }
         } catch (Exception exception) {

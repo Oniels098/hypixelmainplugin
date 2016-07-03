@@ -17,7 +17,7 @@ public class MySQL {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-
+            
             String str1 = "ip";
             String str2 = "database";
             String str3 = "username";

@@ -7,16 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb4aff1-bdcc-44d6-8fdf-c69b15d6d467" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/commands/rank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/events/join_events.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/mysql/MySQL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/server/ranks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/utils/teamutils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/chat_events.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/chat_events.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/utils/actionbar.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/utils/actionbar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.yml" afterPath="$PROJECT_DIR$/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/Main.java" afterPath="$PROJECT_DIR$/src/hypixel/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/mysql/MySQL.java" afterPath="$PROJECT_DIR$/src/hypixel/mysql/MySQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java" afterPath="$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java" />
     </list>
     <ignored path="hypixelmainplugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +35,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hypixel/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="279">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +83,8 @@
       <file leaf-file-name="MySQLRanks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="139" selection-start-line="44" selection-start-column="139" selection-end-line="44" selection-end-column="139" />
+            <state relative-caret-position="255">
+              <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +95,7 @@
       <file leaf-file-name="teamutils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hypixel/utils/teamutils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="210">
               <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,8 +119,8 @@
       <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vanish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hypixel/commands/vanish.java">
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -181,15 +175,15 @@
         <option value="$PROJECT_DIR$/src/hypixel/commands/port.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/testping.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/opme.java" />
-        <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/hypixel/utils/actionbar.java" />
         <option value="$PROJECT_DIR$/src/hypixel/events/chat_events.java" />
         <option value="$PROJECT_DIR$/src/hypixel/utils/teamutils.java" />
-        <option value="$PROJECT_DIR$/src/hypixel/Main.java" />
         <option value="$PROJECT_DIR$/src/hypixel/server/ranks.java" />
-        <option value="$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java" />
         <option value="$PROJECT_DIR$/src/hypixel/events/join_events.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/rank.java" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/hypixel/Main.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java" />
         <option value="$PROJECT_DIR$/src/hypixel/mysql/MySQL.java" />
       </list>
     </option>
@@ -642,7 +636,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -679,7 +673,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -803,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hypixel/commands/vanish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -839,40 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/utils/teamutils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hypixel/server/ranks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="88" column="64" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="139" selection-start-line="44" selection-start-column="139" selection-end-line="44" selection-end-column="139" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -899,10 +855,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/utils/teamutils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

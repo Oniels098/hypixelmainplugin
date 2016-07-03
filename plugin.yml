@@ -6,8 +6,10 @@ commands:
    port:
      description: Used to teleport to a player.
    testping:
-     description: Test thhe ping from a player.
+     description: Test the ping from a player.
    shutupall:
      description: Mutes all online players.
    opme:
      description: Funny op command.
+   rank:
+     description: Change the rank from a player.

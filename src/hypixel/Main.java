@@ -1,10 +1,7 @@
 package hypixel;
 
-import hypixel.commands.opme;
-import hypixel.commands.port;
-import hypixel.commands.shutupall;
-import hypixel.commands.testping;
-import hypixel.events.chat_events;
+import hypixel.commands.*;
+import hypixel.events.*;
 import hypixel.mysql.MySQL;
 import hypixel.utils.actionbar;
 import org.bukkit.entity.Player;
@@ -47,10 +44,12 @@ public class Main extends JavaPlugin {
         getCommand("testping").setExecutor(new testping());
         getCommand("shutupall").setExecutor(new shutupall());
         getCommand("opme").setExecutor(new opme());
+        getCommand("rank").setExecutor(new rank());
     }
 
     private void registerEvents() {
         PluginManager localPluginManager = getServer().getPluginManager();
         localPluginManager.registerEvents(new chat_events(), (this));
+        localPluginManager.registerEvents(new join_events(), (this));
     }
 }
