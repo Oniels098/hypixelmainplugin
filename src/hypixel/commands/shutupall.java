@@ -10,7 +10,7 @@ import org.bukkit.entity.Player;
  * Created by Niels on 03-07-16.
  */
 
-public class shutup implements CommandExecutor {
+public class shutupall implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String strig, String[] args) {

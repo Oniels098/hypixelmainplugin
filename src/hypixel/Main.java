@@ -1,7 +1,8 @@
 package hypixel;
 
+import hypixel.commands.opme;
 import hypixel.commands.port;
-import hypixel.commands.shutup;
+import hypixel.commands.shutupall;
 import hypixel.commands.testping;
 import hypixel.events.chat_events;
 import org.bukkit.entity.Player;
@@ -39,7 +40,8 @@ public class Main extends JavaPlugin {
     private void registerCommands() {
         getCommand("port").setExecutor(new port());
         getCommand("testping").setExecutor(new testping());
-        getCommand("shutup").setExecutor(new shutup());
+        getCommand("shutupall").setExecutor(new shutupall());
+        getCommand("opme").setExecutor(new opme());
     }
 
     private void registerEvents() {
