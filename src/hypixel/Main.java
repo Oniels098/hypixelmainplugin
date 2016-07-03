@@ -5,6 +5,7 @@ import hypixel.commands.port;
 import hypixel.commands.shutupall;
 import hypixel.commands.testping;
 import hypixel.events.chat_events;
+import hypixel.utils.actionbar;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
@@ -31,6 +32,7 @@ public class Main extends JavaPlugin {
     @Deprecated
     private void setup() {
         pl = this;
+        actionbar.getNmsVersion();
         registerCommands();
         System.out.println("Commands have been loaded.");
         registerEvents();
