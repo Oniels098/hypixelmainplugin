@@ -27,6 +27,7 @@ public class shutupall implements CommandExecutor {
             } else if(Main.chatenabled) {
                 Main.chatenabled = false;
                 paramPlayer.sendMessage("§aChat has been enabled.");
+                return true;
             }
         } else if(!paramPlayer.hasPermission("mod")) {
             paramPlayer.sendMessage("§cYou are not allowed to do this!");
