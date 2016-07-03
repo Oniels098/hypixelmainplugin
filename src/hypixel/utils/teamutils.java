@@ -31,6 +31,5 @@ public class teamutils {
         for (Player o : Bukkit.getOnlinePlayers()) {
             o.setScoreboard(board);
         }
-
     }
 }

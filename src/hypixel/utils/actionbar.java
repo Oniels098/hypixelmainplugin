@@ -39,6 +39,7 @@ public class actionbar {
             e.printStackTrace();
         }
     }
+
     private static Class<?> getNMSClass(String className) {
         try {
             return Class.forName("net.minecraft.server." + nmsVersion + "." + className);
