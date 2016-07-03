@@ -16,7 +16,7 @@ public class chat_events implements Listener {
     public void onChat(AsyncPlayerChatEvent event) {
         Player paramPlayer = event.getPlayer();
         event.setFormat(paramPlayer.getDisplayName() + "§f: " + event.getMessage());
-        if(Main.chatenabled = true) {
+        if(!Main.chatenabled) {
             if(!paramPlayer.hasPermission("staff")) {
                 event.setCancelled(true);
                 paramPlayer.sendMessage("§cChat is disabled!");
