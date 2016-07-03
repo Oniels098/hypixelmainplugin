@@ -17,10 +17,10 @@ public class MySQL {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            String str1 = "37.187.134.19";
-            String str2 = "mc20070";
-            String str3 = "mc20070";
-            String str4 = "2cf5b7aa72";
+            String str1 = "ip";
+            String str2 = "database";
+            String str3 = "username";
+            String str4 = "password";
             connection = DriverManager.getConnection("jdbc:mysql://" + str1 + "/" + str2 + "?user=" + str3 + "&password=" + str4 + "");
 
             checkTables();
