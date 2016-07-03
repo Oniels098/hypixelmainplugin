@@ -7,7 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb4aff1-bdcc-44d6-8fdf-c69b15d6d467" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/events/damage_listener.java" afterPath="$PROJECT_DIR$/src/hypixel/events/damage_listener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/events/quit_events.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hypixel/utils/stringutils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/Main.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/damage_listener.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/damage_listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/interact_events$1.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/interact_events$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/interact_events.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/events/interact_events.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/mysql/MySQL.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/mysql/MySQL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/server/ranks$Rank.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/server/ranks$Rank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/server/ranks.class" afterPath="$PROJECT_DIR$/out/production/hypixelmainplugin/hypixel/server/ranks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/Main.java" afterPath="$PROJECT_DIR$/src/hypixel/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/events/interact_events.java" afterPath="$PROJECT_DIR$/src/hypixel/events/interact_events.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/server/ranks.java" afterPath="$PROJECT_DIR$/src/hypixel/server/ranks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hypixel/utils/actionbar.java" afterPath="$PROJECT_DIR$/src/hypixel/utils/actionbar.java" />
     </list>
     <ignored path="hypixelmainplugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,41 +45,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hypixel/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+            <state relative-caret-position="564">
+              <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat_events.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hypixel/events/chat_events.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="join_events.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hypixel/events/join_events.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teamutils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hypixel/utils/teamutils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -74,23 +57,12 @@
       <file leaf-file-name="interact_events.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hypixel/events/interact_events.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-              <folding>
-                <element signature="e#1279#1651#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testping.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hypixel/commands/testping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="750">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1390#1762#0" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,7 +80,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="damage_listener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teamutils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hypixel/utils/teamutils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="20" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionbar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hypixel/utils/actionbar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="80" column="80" selection-start-line="80" selection-start-column="80" selection-end-line="80" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quit_events.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hypixel/events/quit_events.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="damage_listener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hypixel/events/damage_listener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -123,25 +127,34 @@
       <file leaf-file-name="ranks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hypixel/server/ranks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
               <folding>
-                <element signature="e#1095#1096#0" expanded="false" />
-                <element signature="e#1129#1130#0" expanded="false" />
-                <element signature="e#1178#1179#0" expanded="false" />
-                <element signature="e#1212#1213#0" expanded="false" />
-                <element signature="e#1267#1268#0" expanded="false" />
-                <element signature="e#1304#1305#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="315">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stringutils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hypixel/utils/stringutils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,21 +187,23 @@
         <option value="$PROJECT_DIR$/src/hypixel/commands/port.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/opme.java" />
         <option value="$PROJECT_DIR$/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/hypixel/server/ranks.java" />
         <option value="$PROJECT_DIR$/src/hypixel/mysql/MySQLRanks.java" />
         <option value="$PROJECT_DIR$/src/hypixel/events/join_events.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/testping.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/rank.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/nick.java" />
-        <option value="$PROJECT_DIR$/src/hypixel/utils/actionbar.java" />
-        <option value="$PROJECT_DIR$/src/hypixel/utils/teamutils.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/vanish.java" />
         <option value="$PROJECT_DIR$/src/hypixel/events/chat_events.java" />
-        <option value="$PROJECT_DIR$/src/hypixel/mysql/MySQL.java" />
-        <option value="$PROJECT_DIR$/src/hypixel/events/interact_events.java" />
         <option value="$PROJECT_DIR$/src/hypixel/commands/shutupall.java" />
-        <option value="$PROJECT_DIR$/src/hypixel/Main.java" />
         <option value="$PROJECT_DIR$/src/hypixel/events/damage_listener.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/utils/stringutils.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/events/interact_events.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/server/ranks.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/utils/teamutils.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/events/quit_events.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/Main.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/utils/actionbar.java" />
+        <option value="$PROJECT_DIR$/src/hypixel/mysql/MySQL.java" />
       </list>
     </option>
   </component>
@@ -717,9 +732,9 @@
         <state relative-caret-position="150">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#350#351#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,7 +752,7 @@
         <state relative-caret-position="1095">
           <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,9 +808,9 @@
         <state relative-caret-position="75">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#350#351#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,6 +845,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -837,6 +855,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -864,24 +885,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/utils/actionbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hypixel/commands/vanish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#350#351#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -890,14 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/utils/teamutils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -915,42 +918,6 @@
         <state relative-caret-position="255">
           <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/events/interact_events.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="e#1279#1651#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/server/ranks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="e#1095#1096#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
-            <element signature="e#1178#1179#0" expanded="false" />
-            <element signature="e#1212#1213#0" expanded="false" />
-            <element signature="e#1267#1268#0" expanded="false" />
-            <element signature="e#1304#1305#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,20 +941,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/hypixel/events/damage_listener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hypixel/events/damage_listener.java">
+    <entry file="file://$PROJECT_DIR$/src/hypixel/utils/stringutils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/events/interact_events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1390#1762#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/server/ranks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/utils/teamutils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/events/quit_events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/utils/actionbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="80" column="80" selection-start-line="80" selection-start-column="80" selection-end-line="80" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hypixel/mysql/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

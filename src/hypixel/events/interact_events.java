@@ -1,6 +1,8 @@
 package hypixel.events;
 
 import hypixel.Main;
+import hypixel.mysql.MySQLRanks;
+import hypixel.server.ranks;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -36,7 +38,7 @@ public class interact_events implements Listener {
         }
         coolDown.put(puncher, 30);
         target.setVelocity(new Vector(0, 5, 0));
-        Bukkit.broadcastMessage(puncher.getDisplayName() + "§7has punched §9" + target.getName() + "§7into the sky!");
+        Bukkit.broadcastMessage(puncher.getDisplayName() + " §7has punched " + ranks.getChatColor(MySQLRanks.getRank(target)) + target.getName() + " §7into the sky!");
         new BukkitRunnable() {
             public void run() {
                 Integer cooldown = coolDown.get(puncher);

@@ -51,6 +51,8 @@ public class Main extends JavaPlugin {
         PluginManager localPluginManager = getServer().getPluginManager();
         localPluginManager.registerEvents(new chat_events(), (this));
         localPluginManager.registerEvents(new join_events(), (this));
+        localPluginManager.registerEvents(new quit_events()
+                , (this));
         localPluginManager.registerEvents(new interact_events(), (this));
         localPluginManager.registerEvents(new damage_listener(), (this));
     }

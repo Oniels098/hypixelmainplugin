@@ -78,7 +78,7 @@ public class actionbar {
             }
         }
         else {
-            System.out.println("Could not send action bar packet. NMS Class not found.");
+            System.out.println("Could not send actionbar packet. Class not found.");
         }
     }
 }
