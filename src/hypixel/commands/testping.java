@@ -19,16 +19,17 @@ public class testping implements CommandExecutor {
             return true;
         }
         Player paramPlayer = (Player) sender;
-        Player paramPlayer2 = Bukkit.getPlayer(args[0]);
         if(paramPlayer.hasPermission("mod")) {
-            if(args.length < 1) {
+            if(args.length == 0) {
                 paramPlayer.sendMessage("§cCorrect usage: /testping <player>");
                 return true;
             }
-            if(args.length > 1) {
+            if(args.length == 1) {
                 try {
+                    Player paramPlayer2 = Bukkit.getPlayer(args[0]);
                     int ping = getPing(paramPlayer2);
                     paramPlayer.sendMessage("§aPing from §6" + paramPlayer2.getName() + " §a: §6" + ping);
+                    paramPlayer.setFlySpeed(0.1F);
                     ping = 0;
                 }catch (Exception e) {
                     sender.sendMessage("§cSomething went wrong while executing this command!");

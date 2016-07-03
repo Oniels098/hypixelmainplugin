@@ -5,3 +5,7 @@ main: hypixel.Main
 commands:
    port:
      description: Used to teleport to a player.
+   testping:
+     description: Test thhe ping from a player.
+   shutup:
+     description: Mutes all online players.
