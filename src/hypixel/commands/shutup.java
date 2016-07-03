@@ -19,7 +19,7 @@ public class shutup implements CommandExecutor {
             return true;
         }
         Player paramPlayer = (Player) sender;
-        if(paramPlayer.hasPermission("admin")) {
+        if(paramPlayer.hasPermission("mod")) {
             if(!Main.chatenabled) {
                 Main.chatenabled = true;
                 paramPlayer.sendMessage("§aChat has been disabled.");
@@ -28,6 +28,8 @@ public class shutup implements CommandExecutor {
                 Main.chatenabled = false;
                 paramPlayer.sendMessage("§aChat has been enabled.");
             }
+        } else if(!paramPlayer.hasPermission("mod")) {
+            paramPlayer.sendMessage("§cYou are not allowed to do this!");
         }
         return true;
     }

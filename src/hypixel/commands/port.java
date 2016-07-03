@@ -29,13 +29,13 @@ public class port implements CommandExecutor {
                 try {
                     paramPlayer.teleport(paramPlayer2.getLocation());
                     paramPlayer.sendMessage("§aYou have been teleported to §2" + paramPlayer2.getName());
-                }catch (Exception e) {
+                } catch (Exception e) {
                     paramPlayer.sendMessage("§cSomething went wrong while executing this command!");
                 }
+            }
             } else if(!paramPlayer.hasPermission("mod")) {
                 paramPlayer.sendMessage("§cYou are not allowed to do this!");
                 return true;
-            }
         }
         return true;
     }

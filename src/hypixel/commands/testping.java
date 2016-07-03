@@ -28,16 +28,16 @@ public class testping implements CommandExecutor {
                 try {
                     Player paramPlayer2 = Bukkit.getPlayer(args[0]);
                     int ping = getPing(paramPlayer2);
-                    paramPlayer.sendMessage("§aPing from §6" + paramPlayer2.getName() + " §a: §6" + ping);
+                    paramPlayer.sendMessage("§aPing from §6" + paramPlayer2.getName() + "§a: §6" + ping);
                     paramPlayer.setFlySpeed(0.1F);
                     ping = 0;
-                }catch (Exception e) {
+                } catch (Exception e) {
                     sender.sendMessage("§cSomething went wrong while executing this command!");
                 }
-            } else if(!paramPlayer.hasPermission("mod")) {
-
             }
-        }
+            } else if(!paramPlayer.hasPermission("mod")) {
+                paramPlayer.sendMessage("§cYou do not have permission to execute this command!");
+            }
         return true;
     }
 
