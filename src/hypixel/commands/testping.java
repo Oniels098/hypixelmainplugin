@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 /**
  * Created by Niels on 02-07-16.
  */
+
 public class testping implements CommandExecutor {
 
     @Override

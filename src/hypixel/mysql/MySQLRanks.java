@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 /**
  * Created by Niels on 03-07-16.
  */
+
 public class MySQLRanks {
     private static String table = "ranks";
 

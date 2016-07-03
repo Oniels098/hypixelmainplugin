@@ -9,6 +9,7 @@ import org.bukkit.scoreboard.Team;
 /**
  * Created by Niels on 03-07-16.
  */
+
 public class teamutils {
 
     public static void setNameTagColor(Player p, String prefix) {

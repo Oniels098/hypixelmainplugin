@@ -11,6 +11,7 @@ import org.bukkit.entity.Player;
 /**
  * Created by Niels on 03-07-16.
  */
+
 public class rank implements CommandExecutor {
 
     @Override
