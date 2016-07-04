@@ -5,6 +5,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/hypixelmainplugin.iml" />
       <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
       <element id="module-output" name="hypixelmainplugin" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
     </root>
   </artifact>
 </component>

@@ -3,6 +3,7 @@ package hypixel;
 import hypixel.commands.*;
 import hypixel.events.*;
 import hypixel.mysql.MySQL;
+import hypixel.mysql.MySQLRanks;
 import hypixel.utils.Config;
 import hypixel.utils.actionbar;
 import org.bukkit.entity.Player;
@@ -27,7 +28,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         setup();
-        chatenabled = false;
+        chatenabled = true;
     }
 
     @Deprecated
@@ -35,11 +36,14 @@ public class Main extends JavaPlugin {
         pl = this;
         actionbar.getNmsVersion();
         MySQL.connect();
+        MySQLRanks.checkTable();
         System.out.println("MySQL has been connected");
         registerCommands();
         System.out.println("Commands have been loaded.");
         registerEvents();
         System.out.println("Events have been registered.");
+        Config.registerConfig("config", "config.yml", this);
+        Config.registerConfig("playerdata", "playerdata.yml", this);
         Config.loadAll();
         Config.saveAll();
         config = Config.getConfig("config");
@@ -53,6 +57,7 @@ public class Main extends JavaPlugin {
         getCommand("shutupall").setExecutor(new shutupall());
         getCommand("opme").setExecutor(new opme());
         getCommand("rank").setExecutor(new rank());
+        getCommand("kaboom").setExecutor(new kaboom());
     }
 
     private void registerEvents() {

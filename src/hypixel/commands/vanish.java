@@ -7,6 +7,7 @@ import org.bukkit.command.CommandSender;
 /**
  * Created by Niels on 02-07-16.
  */
+
 public class vanish implements CommandExecutor {
 
     @Override

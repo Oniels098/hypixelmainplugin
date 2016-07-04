@@ -20,10 +20,10 @@ public class MySQL {
         {
             Class.forName("com.mysql.jdbc.Driver");
 
-            String str1 = Main.config.getString("mysql.ip");
-            String str2 = Main.config.getString("database");
-            String str3 = Main.config.getString("username");
-            String str4 = Main.config.getString("password");
+            String str1 = Main.pl.getConfig().getString("mysql.ip");
+            String str2 = Main.pl.getConfig().getString("mysql.database");
+            String str3 = Main.pl.getConfig().getString("mysql.username");
+            String str4 = Main.pl.getConfig().getString("mysql.password");
             connection = DriverManager.getConnection("jdbc:mysql://" + str1 + "/" + str2 + "?user=" + str3 + "&password=" + str4 + "");
 
             checkTables();
