@@ -1,5 +1,7 @@
 package hypixel.mysql;
 
+import hypixel.Main;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -17,10 +19,11 @@ public class MySQL {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            String str1 = "ip";
-            String str2 = "database";
-            String str3 = "username";
-            String str4 = "password";
+
+            String str1 = Main.config.getString("mysql.ip");
+            String str2 = Main.config.getString("database");
+            String str3 = Main.config.getString("username");
+            String str4 = Main.config.getString("password");
             connection = DriverManager.getConnection("jdbc:mysql://" + str1 + "/" + str2 + "?user=" + str3 + "&password=" + str4 + "");
 
             checkTables();

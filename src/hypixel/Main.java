@@ -3,6 +3,7 @@ package hypixel;
 import hypixel.commands.*;
 import hypixel.events.*;
 import hypixel.mysql.MySQL;
+import hypixel.utils.Config;
 import hypixel.utils.actionbar;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
@@ -20,6 +21,8 @@ public class Main extends JavaPlugin {
     public static Plugin pl;
     public static ArrayList<Player> online_players = new ArrayList<>();
     public static boolean chatenabled;
+    public static Config.RConfig playerData;
+    public static Config.RConfig config;
 
     @Override
     public void onEnable() {
@@ -37,6 +40,11 @@ public class Main extends JavaPlugin {
         System.out.println("Commands have been loaded.");
         registerEvents();
         System.out.println("Events have been registered.");
+        Config.loadAll();
+        Config.saveAll();
+        config = Config.getConfig("config");
+        playerData = Config.getConfig("playerData");
+        System.out.println("Files have been loaded.");
     }
 
     private void registerCommands() {
@@ -51,8 +59,7 @@ public class Main extends JavaPlugin {
         PluginManager localPluginManager = getServer().getPluginManager();
         localPluginManager.registerEvents(new chat_events(), (this));
         localPluginManager.registerEvents(new join_events(), (this));
-        localPluginManager.registerEvents(new quit_events()
-                , (this));
+        localPluginManager.registerEvents(new quit_events(), (this));
         localPluginManager.registerEvents(new interact_events(), (this));
         localPluginManager.registerEvents(new damage_listener(), (this));
     }

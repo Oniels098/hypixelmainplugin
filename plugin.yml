@@ -13,3 +13,5 @@ commands:
      description: Funny op command.
    rank:
      description: Change the rank from a player.
+   kaboom:
+     description: Launch all online players into the air.
