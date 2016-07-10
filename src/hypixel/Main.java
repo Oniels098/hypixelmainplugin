@@ -3,6 +3,7 @@ package hypixel;
 import hypixel.commands.*;
 import hypixel.events.*;
 import hypixel.mysql.MySQL;
+import hypixel.mysql.MySQLData;
 import hypixel.mysql.MySQLRanks;
 import hypixel.utils.Config;
 import hypixel.utils.actionbar;
@@ -30,13 +31,13 @@ public class Main extends JavaPlugin {
         setup();
         chatenabled = true;
     }
-
-    @Deprecated
+    
     private void setup() {
         pl = this;
         actionbar.getNmsVersion();
         MySQL.connect();
         MySQLRanks.checkTable();
+        MySQLData.checkTable();
         System.out.println("MySQL has been connected");
         registerCommands();
         System.out.println("Commands have been loaded.");
@@ -58,6 +59,7 @@ public class Main extends JavaPlugin {
         getCommand("opme").setExecutor(new opme());
         getCommand("rank").setExecutor(new rank());
         getCommand("kaboom").setExecutor(new kaboom());
+        getCommand("setlevel").setExecutor(new setlevel());
     }
 
     private void registerEvents() {

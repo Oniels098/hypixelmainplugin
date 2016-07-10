@@ -24,7 +24,7 @@ public class kaboom implements CommandExecutor {
             kaboom(paramPlayer);
             return true;
         } else if(!paramPlayer.hasPermission("admin")) {
-            paramPlayer.sendMessage("§You're noy of the rank to use this comman! You must be of the admin rank or higher!");
+            paramPlayer.sendMessage("§You're noy of the rank to use this command! You must be of the admin rank or higher!");
             return true;
         }
         return true;
@@ -37,7 +37,7 @@ public class kaboom implements CommandExecutor {
             Player cur = arrayOfPlayer[i];
             cur.setVelocity(new Vector(0, 5, 0));
             cur.getWorld().strikeLightningEffect(cur.getLocation());
-            sender.sendMessage("§aLaunched " + cur.getName());
+            sender.sendMessage("§aLaunched " + cur.getName() + "!");
         }
     }
 }

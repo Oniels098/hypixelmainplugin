@@ -1,8 +1,10 @@
 package hypixel.events;
 
 import hypixel.bossbar.bossbar;
+import hypixel.mysql.MySQLData;
 import hypixel.mysql.MySQLRanks;
 import hypixel.server.ranks;
+import org.bukkit.Statistic;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -20,5 +22,9 @@ public class join_events implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player paramPlayer = event.getPlayer();
         ranks.updaterank(paramPlayer, MySQLRanks.getRank(paramPlayer));
+        paramPlayer.setLevel(Integer.valueOf(MySQLData.getLevel(paramPlayer)));
+        for(Statistic stats : Statistic.values()) {
+            paramPlayer.setStatistic(stats, 0);
+        }
     }
 }
