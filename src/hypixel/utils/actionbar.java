@@ -24,6 +24,10 @@ public class actionbar {
             nmsVersion = Bukkit.getServer().getClass().getPackage().getName();
             nmsVersion = nmsVersion.substring(nmsVersion.lastIndexOf(".") + 1);
             craftPlayer = Class.forName("org.bukkit.craftbukkit." + nmsVersion + ".entity.CraftPlayer");
+            packet = getNMSClass("Packet");
+            packetPlayOutChat = getNMSClass("PacketPlayOutChat");
+            iChatBaseComponent = getNMSClass("IChatBaseComponent");
+            chatComponentText = getNMSClass("ChatComponentText");
         }catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -52,12 +56,7 @@ public class actionbar {
 
     public static void sendActionbar(Player player, String message) {
         message = ChatColor.translateAlternateColorCodes('&', message);
-
-        packet = getNMSClass("Packet");
-        packetPlayOutChat = getNMSClass("PacketPlayOutChat");
-        iChatBaseComponent = getNMSClass("IChatBaseComponent");
-        chatComponentText = getNMSClass("ChatComponentText");
-
+        
         if (packet != null && packetPlayOutChat != null && iChatBaseComponent != null && chatComponentText != null) {
             try {
                 Object nmsPlayer = craftPlayer.cast(player);
